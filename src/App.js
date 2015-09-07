@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Sentence from './components/sentence'
 
 export default class App extends Component {
   render() {
     return (
-      <h1>Hello, world.</h1>
+      <Sentence>Hello, world.How are you today?</Sentence>
     );
   }
 }
